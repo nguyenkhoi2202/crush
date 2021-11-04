@@ -44,5 +44,20 @@
         android:src="@drawable/heart"
         android:text="Yeu" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="690dp"
+        android:layout_marginEnd="58dp"
+        android:text="Develop by Khoitn"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="18dp" />
+
 
 </RelativeLayout>

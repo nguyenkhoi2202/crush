@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Crush">
         <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".Yeu"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".HelloActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
