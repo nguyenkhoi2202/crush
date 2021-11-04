@@ -7,14 +7,14 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="308dp"
-        android:layout_height="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="120dp"
-        android:layout_marginEnd="53dp"
+        android:layout_marginEnd="52dp"
         android:text="Làm người yêu tớ nhé !!!"
         android:textAlignment="center"
         android:textColor="#E91E63"
