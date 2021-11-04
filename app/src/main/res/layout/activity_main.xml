@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="308dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="53dp"
+        android:text="Làm người yêu tớ nhé !!!"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/btnKYeu"
+        android:layout_width="113dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="102dp"
+        android:layout_toStartOf="@+id/btnYeu"
+        android:src="@drawable/heartbroken"
+        android:text="Yeu" />
+
+    <ImageView
+        android:id="@+id/btnYeu"
+        android:layout_width="113dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="48dp"
+        android:src="@drawable/heart"
+        android:text="Yeu" />
+
+
+</RelativeLayout>
